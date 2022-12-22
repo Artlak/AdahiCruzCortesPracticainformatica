@@ -1,0 +1,60 @@
+{
+	"name": "thebutton859351_960_",
+	"plugin-id": "Sprite",
+	"sid": 903198774638333,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 960,
+						"height": 480,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3491932,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 379737242004621,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 850,
+						"height": 425,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5263646,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 350249325847541,
+				"name": "Animación 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

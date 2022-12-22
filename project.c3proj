@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -74,7 +82,14 @@
 			"Tarjpeg",
 			"Ventiladorpeg",
 			"FDApeg",
-			"RAMpeg"
+			"RAMpeg",
+			"pc_",
+			"mejoraplicacionfondospantallaanimadosllegariaandroiddentropoco",
+			"fd3967b122fb575d67579868585d7d",
+			"Titulo",
+			"thebutton859351_960_",
+			"IniciarJuego",
+			"BOtóninicio"
 		],
 		"subfolders": []
 	},
@@ -86,13 +101,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},
