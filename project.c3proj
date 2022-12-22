@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "water",
+			"name": "Agua",
+			"author": "Viktor Korsun",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mco19ngl6hq",
