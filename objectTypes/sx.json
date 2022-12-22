@@ -1,0 +1,21 @@
+{
+	"name": "sx",
+	"plugin-id": "Audio",
+	"sid": 521234067119981,
+	"singleglobal-inst": {
+		"type": "sx",
+		"properties": {
+			"timescale-audio": "off",
+			"save-load": "all",
+			"play-in-background": false,
+			"latency-hint": "interactive",
+			"panning-model": "hrtf",
+			"distance-model": "inverse",
+			"listener-z-height": 600,
+			"reference-distance": 600,
+			"maximum-distance": 10000,
+			"roll-off-factor": 1
+		},
+		"uid": 29
+	}
+}
