@@ -1,0 +1,56 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 228739328967920
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 185654380039876,
+					"parameters": {
+						"audio-file": "tomp3.cc - WENOMECHAINSAMA AUDIO SATURADO",
+						"loop": "looping",
+						"volume": "-29",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 140539317135801
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 228739328967920
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 156793594108266,
+					"parameters": {
+						"audio-file": "tomp3.cc - 1 hour of 3D Saul Goodman to slowly lose your sanity over 3D_64kbps",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 140539317135801
+		}
+	],
+	"sid": 764104485559617
+}

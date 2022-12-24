@@ -1,0 +1,37 @@
+{
+	"name": "flechavent",
+	"plugin-id": "Sprite",
+	"sid": 513154064692864,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1529,
+						"height": 2180,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 321697,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 615636471219074,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

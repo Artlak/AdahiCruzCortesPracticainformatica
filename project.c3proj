@@ -39,6 +39,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -97,7 +105,15 @@
 			"Titulo",
 			"thebutton859351_960_",
 			"IniciarJuego",
-			"BOtóninicio"
+			"BOtóninicio",
+			"f167c9e2110e7eff1d51aad01c879d",
+			"sx",
+			"felicidadesfelicitacionesespanol_",
+			"dsaulsaulgoodman",
+			"flechavent",
+			"circulovent",
+			"flechapb",
+			"circulopb"
 		],
 		"subfolders": []
 	},
@@ -110,14 +126,16 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},
@@ -127,7 +145,24 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "tomp3.cc - WENOMECHAINSAMA AUDIO SATURADO.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 926672226898383,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tomp3.cc - 1 hour of 3D Saul Goodman to slowly lose your sanity over 3D_64kbps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 263287946708616,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
