@@ -22,24 +22,11 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
-				}
-			],
-			"sid": 140539317135801
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 228739328967920
-				}
-			],
-			"actions": [
+				},
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 156793594108266,
+					"sid": 261907488601677,
 					"parameters": {
 						"audio-file": "tomp3.cc - 1 hour of 3D Saul Goodman to slowly lose your sanity over 3D_64kbps",
 						"loop": "looping",

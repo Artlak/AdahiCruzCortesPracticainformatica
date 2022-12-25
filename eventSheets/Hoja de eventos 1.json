@@ -254,6 +254,19 @@
 					"parameters": {
 						"frame-number": "0"
 					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "screamer",
+					"sid": 611396802414886
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "pxColor_negro",
+					"sid": 805568046833271,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 512213158835165
@@ -1168,7 +1181,35 @@
 					}
 				}
 			],
-			"sid": 620707221612778
+			"sid": 620707221612778,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 106179558147624,
+							"parameters": {
+								"variable": "Aciertos",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Texto",
+							"sid": 403775300317511,
+							"parameters": {
+								"text": "\"Coloca el hardware donde corresponda\""
+							}
+						}
+					],
+					"sid": 703224647931722
+				}
+			]
 		},
 		{
 			"eventType": "block",
@@ -1626,19 +1667,40 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 807866602031289,
+					"sid": 365885071242690,
 					"parameters": {
 						"variable": "Aciertos",
 						"comparison": 0,
 						"value": "12"
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 668349803356781
 				}
 			],
 			"actions": [
 				{
+					"id": "set-enabled",
+					"objectClass": "Botónreinicio",
+					"sid": 931041489800068,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
 					"id": "stop-all",
 					"objectClass": "sx",
-					"sid": 519059335190120
+					"sid": 377485944548659
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "pxColor_negro",
+					"sid": 311470770553418,
+					"parameters": {
+						"visibility": "visible"
+					}
 				},
 				{
 					"id": "set-visible",
@@ -1667,7 +1729,7 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 171459224097970,
+					"sid": 174123596396599,
 					"parameters": {
 						"audio-file": "tomp3.cc - AMOGUS Sound effect_64kbps",
 						"loop": "not-looping",
@@ -1683,24 +1745,11 @@
 					"parameters": {
 						"seconds": "8"
 					}
-				}
-			],
-			"sid": 506265307668784
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-end-of-layout",
-					"objectClass": "System",
-					"sid": 795737155687864
-				}
-			],
-			"actions": [
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 535806535460596,
+					"sid": 940145435951437,
 					"parameters": {
 						"layout": "Escena 3"
 					}
@@ -1708,10 +1757,10 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 736758817552204
+					"sid": 659417528460372
 				}
 			],
-			"sid": 318120049251824
+			"sid": 506265307668784
 		}
 	],
 	"sid": 604780321525055
