@@ -5,6 +5,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 597171135264301
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 528069598721960,
+					"parameters": {
+						"audio-file": "tomp3.cc - Jetpack Joyride Main Theme",
+						"loop": "not-looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 248825385132005
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-clicked",
 					"objectClass": "BOtóninicio",
 					"sid": 302787606997467

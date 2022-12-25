@@ -733,11 +733,11 @@
 				],
 				"sid": 846229513564373,
 				"name": "Default",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 5.2
 			}
 		],
 		"subfolders": []

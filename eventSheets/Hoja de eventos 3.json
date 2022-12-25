@@ -14,11 +14,11 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 185654380039876,
+					"sid": 284522503166389,
 					"parameters": {
 						"audio-file": "tomp3.cc - WENOMECHAINSAMA AUDIO SATURADO",
 						"loop": "looping",
-						"volume": "-29",
+						"volume": "-27",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

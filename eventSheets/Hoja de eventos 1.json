@@ -230,11 +230,11 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 774262486649870,
+					"sid": 592471206374853,
 					"parameters": {
 						"audio-file": "tomp3.cc - Kahoot lobby music OST 1 Hour Version",
 						"loop": "not-looping",
-						"volume": "-15",
+						"volume": "-10",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

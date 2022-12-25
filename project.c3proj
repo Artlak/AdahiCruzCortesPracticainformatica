@@ -140,7 +140,9 @@
 			"a",
 			"Botónreinicio",
 			"pxColor_negro",
-			"screamer"
+			"screamer",
+			"creditos",
+			"dcreepyglitchmonsterbaby2sloca1kr961m94c"
 		],
 		"subfolders": []
 	},
@@ -225,6 +227,22 @@
 					"name": "tomp3.cc - AMOGUS Sound effect_64kbps.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 622487893854936,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "omagadbra.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 448509419396374,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tomp3.cc - Jetpack Joyride Main Theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 413535380464463,
 					"file-info": {
 						"purpose": "none"
 					}
