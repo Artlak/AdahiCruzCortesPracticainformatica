@@ -1181,35 +1181,33 @@
 					}
 				}
 			],
-			"sid": 620707221612778,
-			"children": [
+			"sid": 620707221612778
+		},
+		{
+			"eventType": "block",
+			"conditions": [
 				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-eventvar",
-							"objectClass": "System",
-							"sid": 106179558147624,
-							"parameters": {
-								"variable": "Aciertos",
-								"comparison": 0,
-								"value": "1"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-text",
-							"objectClass": "Texto",
-							"sid": 403775300317511,
-							"parameters": {
-								"text": "\"Coloca el hardware donde corresponda\""
-							}
-						}
-					],
-					"sid": 703224647931722
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 250643654837257,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 0,
+						"value": "1"
+					}
 				}
-			]
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Texto",
+					"sid": 835610978217559,
+					"parameters": {
+						"text": "\"Coloca el hardware donde corresponda\""
+					}
+				}
+			],
+			"sid": 850394754826966
 		},
 		{
 			"eventType": "block",
@@ -1654,6 +1652,20 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "sx",
+					"sid": 225344926145382
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 698591181072134,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
 					"id": "restart-layout",
 					"objectClass": "System",
 					"sid": 120632472808867
@@ -1729,9 +1741,9 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 174123596396599,
+					"sid": 257354804693421,
 					"parameters": {
-						"audio-file": "tomp3.cc - AMOGUS Sound effect_64kbps",
+						"audio-file": "AMOGUS Sound effect_64kbps",
 						"loop": "not-looping",
 						"volume": "0",
 						"stereo-pan": "0",
@@ -1744,6 +1756,15 @@
 					"sid": 372026298932257,
 					"parameters": {
 						"seconds": "8"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 208749347987709,
+					"parameters": {
+						"variable": "Aciertos",
+						"value": "0"
 					}
 				},
 				{

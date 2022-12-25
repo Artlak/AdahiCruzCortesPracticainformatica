@@ -14,11 +14,11 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 960119430371854,
+					"sid": 600937062440418,
 					"parameters": {
 						"audio-file": "tomp3.cc - WENOMECHAINSAMA AUDIO SATURADO",
 						"loop": "looping",
-						"volume": "-29",
+						"volume": "-28",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -26,11 +26,11 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 270009822809877,
+					"sid": 388575007630578,
 					"parameters": {
 						"audio-file": "tomp3.cc - 1 hour of 3D Saul Goodman to slowly lose your sanity over 3D_64kbps",
 						"loop": "looping",
-						"volume": "-2",
+						"volume": "50",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -38,7 +38,7 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 405891375289743,
+					"sid": 386045190282069,
 					"parameters": {
 						"audio-file": "NEFFEX - Careless 💔 [Copyright Free]",
 						"loop": "looping",
@@ -50,11 +50,11 @@
 				{
 					"id": "play",
 					"objectClass": "sx",
-					"sid": 901186845928986,
+					"sid": 572998439574026,
 					"parameters": {
 						"audio-file": "omagadbra",
 						"loop": "looping",
-						"volume": "-15",
+						"volume": "-16",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}

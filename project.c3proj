@@ -144,7 +144,8 @@
 			"creditos",
 			"dcreepyglitchmonsterbaby2sloca1kr961m94c",
 			"spidermandance",
-			"thanosthanostwerk"
+			"thanosthanostwerk",
+			"texto0"
 		],
 		"subfolders": []
 	},
@@ -245,6 +246,14 @@
 					"name": "tomp3.cc - Jetpack Joyride Main Theme.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 413535380464463,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "AMOGUS Sound effect_64kbps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 783345387501970,
 					"file-info": {
 						"purpose": "none"
 					}
