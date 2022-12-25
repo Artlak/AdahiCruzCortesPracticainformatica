@@ -18,6 +18,16 @@
 					"parameters": {
 						"layout": "Escena 1"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "sx",
+					"sid": 121041560671050
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 536797082447527
 				}
 			],
 			"sid": 395826528609617

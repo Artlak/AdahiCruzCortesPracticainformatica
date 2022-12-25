@@ -69,6 +69,14 @@
 			"author": "Viktor Korsun",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "noise",
+			"name": "Ruido",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mco19ngl6hq",
@@ -128,7 +136,11 @@
 			"carafa",
 			"caracpu",
 			"circulotg",
-			"flechatg"
+			"flechatg",
+			"a",
+			"Botónreinicio",
+			"pxColor_negro",
+			"screamer"
 		],
 		"subfolders": []
 	},

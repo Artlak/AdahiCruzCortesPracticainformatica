@@ -47,22 +47,6 @@
 					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Agua": {
-							"isEnabled": true,
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
 					"world": {
 						"x": 469.5,
 						"y": 970.5,
@@ -92,22 +76,6 @@
 					"uid": 32,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Agua": {
-							"isEnabled": true,
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
 					"world": {
 						"x": 1437,
 						"y": 968,

@@ -5,12 +5,7 @@
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "water",
-			"name": "Agua"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{

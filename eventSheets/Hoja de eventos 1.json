@@ -238,6 +238,22 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "screamer",
+					"sid": 481691943178680,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "screamer",
+					"sid": 668906546068765,
+					"parameters": {
+						"frame-number": "0"
+					}
 				}
 			],
 			"sid": 512213158835165
@@ -1585,6 +1601,117 @@
 				}
 			],
 			"sid": 961530239581574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botónreinicio",
+					"sid": 323957047757390
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 120632472808867
+				}
+			],
+			"sid": 667646344494151
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 807866602031289,
+					"parameters": {
+						"variable": "Aciertos",
+						"comparison": 0,
+						"value": "12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "sx",
+					"sid": 519059335190120
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "screamer",
+					"sid": 595674376460554,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 286925269364448,
+					"parameters": {
+						"seconds": "5"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "screamer",
+					"sid": 916760666519309,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 171459224097970,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMOGUS Sound effect_64kbps",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 372026298932257,
+					"parameters": {
+						"seconds": "8"
+					}
+				}
+			],
+			"sid": 506265307668784
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 795737155687864
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 535806535460596,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 736758817552204
+				}
+			],
+			"sid": 318120049251824
 		}
 	],
 	"sid": 604780321525055
