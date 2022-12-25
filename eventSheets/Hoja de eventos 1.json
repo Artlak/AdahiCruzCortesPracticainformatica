@@ -226,6 +226,18 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 774262486649870,
+					"parameters": {
+						"audio-file": "tomp3.cc - Kahoot lobby music OST 1 Hour Version",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 512213158835165
@@ -1194,6 +1206,18 @@
 					"parameters": {
 						"state": "disabled"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 830820791041862,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 897035355659979
@@ -1249,6 +1273,18 @@
 					"behaviorType": "ArrastrarYSoltar",
 					"parameters": {
 						"state": "disabled"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 452168150330769,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1306,6 +1342,42 @@
 					"parameters": {
 						"state": "disabled"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulocpu",
+					"sid": 618581828925179,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechacpu",
+					"sid": 327604630941728,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caracpu",
+					"sid": 154922441452600,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 238898377174181,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 891343551986441
@@ -1361,6 +1433,18 @@
 					"behaviorType": "ArrastrarYSoltar",
 					"parameters": {
 						"state": "disabled"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 946613318933745,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1418,6 +1502,18 @@
 					"parameters": {
 						"state": "disabled"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 535728766829402,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 251987121766328
@@ -1473,6 +1569,18 @@
 					"behaviorType": "ArrastrarYSoltar",
 					"parameters": {
 						"state": "disabled"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 949961907457529,
+					"parameters": {
+						"audio-file": "tomp3.cc - AMONG USmp3_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
