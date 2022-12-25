@@ -1042,6 +1042,12 @@
 						"text": "\"CPU\"",
 						"case": "case-insensitive"
 					}
+				},
+				{
+					"id": "is-enabled",
+					"objectClass": "cpu",
+					"sid": 684093141156093,
+					"behaviorType": "ArrastrarYSoltar"
 				}
 			],
 			"actions": [
@@ -1179,6 +1185,15 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu_cooler",
+					"sid": 870572534456859,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 897035355659979
@@ -1225,6 +1240,15 @@
 					"sid": 338602189852737,
 					"parameters": {
 						"text": "Aciertos"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Placa_base",
+					"sid": 285748597238103,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
 					}
 				}
 			],
@@ -1273,6 +1297,15 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu",
+					"sid": 856944343778672,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 891343551986441
@@ -1319,6 +1352,15 @@
 					"sid": 184932355011391,
 					"parameters": {
 						"text": "Aciertos"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Grafica",
+					"sid": 227864859069779,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
 					}
 				}
 			],
@@ -1367,6 +1409,15 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "psu",
+					"sid": 504429317244251,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
+					}
 				}
 			],
 			"sid": 251987121766328
@@ -1413,6 +1464,15 @@
 					"sid": 946252256168047,
 					"parameters": {
 						"text": "Aciertos"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 888098986375707,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "disabled"
 					}
 				}
 			],
