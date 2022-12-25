@@ -1,0 +1,37 @@
+{
+	"name": "circulocpu",
+	"plugin-id": "Sprite",
+	"sid": 756804017265013,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1200,
+						"height": 1120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5866942,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 637662403783100,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

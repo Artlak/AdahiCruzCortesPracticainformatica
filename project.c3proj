@@ -113,7 +113,13 @@
 			"flechavent",
 			"circulovent",
 			"flechapb",
-			"circulopb"
+			"circulopb",
+			"flecharam",
+			"circuloram",
+			"flechafe",
+			"circulofe",
+			"flechacpu",
+			"circulocpu"
 		],
 		"subfolders": []
 	},

@@ -389,6 +389,32 @@
 			"conditions": [
 				{
 					"id": "compare-text",
+					"objectClass": "TarjetaGráfica",
+					"sid": 658653292284799,
+					"parameters": {
+						"text": "\"Tarjeta Gráfica\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Grafica",
+					"sid": 275691311744277,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 411308284523472
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
 					"objectClass": "FDA",
 					"sid": 311154112781636,
 					"parameters": {
