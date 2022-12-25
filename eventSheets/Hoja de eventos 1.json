@@ -282,6 +282,18 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 298061926512094,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 154538744452146
@@ -319,9 +331,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caravent",
-					"sid": 446873737328546,
+					"sid": 506342389735353,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -351,9 +363,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caravent",
-					"sid": 422505172074639,
+					"sid": 167167370716675,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -419,6 +431,18 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 966099737262345,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 321606314429463
@@ -456,9 +480,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "carapb",
-					"sid": 827091080160057,
+					"sid": 872367415587391,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -488,9 +512,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "carapb",
-					"sid": 146653693035176,
+					"sid": 135298015752136,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -556,6 +580,18 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 881571993075791,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 175315214648943
@@ -593,9 +629,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caratg",
-					"sid": 960196938604161,
+					"sid": 819452952409294,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -625,9 +661,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caratg",
-					"sid": 996550431019967,
+					"sid": 746521319874698,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -693,6 +729,18 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 538144144438964,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 522629940463482
@@ -730,9 +778,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "carafa",
-					"sid": 573789508185717,
+					"sid": 820393989923830,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -762,9 +810,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "carafa",
-					"sid": 332547379317520,
+					"sid": 980619750387492,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -830,6 +878,18 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 490742397191157,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 496333342959229
@@ -867,9 +927,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "cararam",
-					"sid": 821525013989826,
+					"sid": 922147209060869,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -899,9 +959,9 @@
 				{
 					"id": "set-visible",
 					"objectClass": "cararam",
-					"sid": 651987825109560,
+					"sid": 857756437265249,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
 					}
 				},
 				{
@@ -1004,9 +1064,21 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caracpu",
-					"sid": 986919411478743,
+					"sid": 653357575231400,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 520778716280895,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				},
 				{
@@ -1036,9 +1108,21 @@
 				{
 					"id": "set-visible",
 					"objectClass": "caracpu",
-					"sid": 354630336961191,
+					"sid": 957594161806501,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "sx",
+					"sid": 204992789904473,
+					"parameters": {
+						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+						"loop": "not-looping",
+						"volume": "-15",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
 					}
 				},
 				{

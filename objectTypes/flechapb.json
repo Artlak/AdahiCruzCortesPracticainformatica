@@ -37,11 +37,11 @@
 				],
 				"sid": 143903864286766,
 				"name": "Default",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 30
 			}
 		],
 		"subfolders": []
