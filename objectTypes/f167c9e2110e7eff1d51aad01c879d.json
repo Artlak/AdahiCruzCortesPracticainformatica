@@ -2713,8 +2713,8 @@
 				],
 				"sid": 361103157275680,
 				"name": "Default",
-				"isLooping": false,
-				"isPingPong": false,
+				"isLooping": true,
+				"isPingPong": true,
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 15

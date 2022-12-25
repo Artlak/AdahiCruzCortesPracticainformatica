@@ -61,6 +61,37 @@
 				}
 			],
 			"sid": 140539317135801
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 914495530453738
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "sx",
+					"sid": 813743374979196
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 846708551877336,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 861889973788842
+				}
+			],
+			"sid": 432122453979235
 		}
 	],
 	"sid": 764104485559617
