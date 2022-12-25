@@ -82,6 +82,150 @@
 					"parameters": {
 						"text": "Aciertos"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caracpu",
+					"sid": 102638204891868,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulocpu",
+					"sid": 779997826996493,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechacpu",
+					"sid": 567672598862102,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "carafa",
+					"sid": 677994606363792,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulofe",
+					"sid": 716773343545750,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechafe",
+					"sid": 811983678008901,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cararam",
+					"sid": 287955422106030,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circuloram",
+					"sid": 741887527388231,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flecharam",
+					"sid": 224403821360049,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caratg",
+					"sid": 432922057940357,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulotg",
+					"sid": 901348542293521,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechatg",
+					"sid": 289507185750351,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "carapb",
+					"sid": 962019994846561,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulopb",
+					"sid": 377585080422520,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechapb",
+					"sid": 761002283498632,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caravent",
+					"sid": 950007020172982,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulovent",
+					"sid": 326562611589242,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechavent",
+					"sid": 168318051240366,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 512213158835165
@@ -173,6 +317,14 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "caravent",
+					"sid": 446873737328546,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 112705107497036,
@@ -194,6 +346,14 @@
 					"sid": 774116098985696,
 					"parameters": {
 						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caravent",
+					"sid": 422505172074639,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				},
 				{
@@ -294,6 +454,14 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "carapb",
+					"sid": 827091080160057,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 374588777353611,
@@ -315,6 +483,14 @@
 					"sid": 319094508068667,
 					"parameters": {
 						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "carapb",
+					"sid": 146653693035176,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				},
 				{
@@ -390,7 +566,7 @@
 				{
 					"id": "compare-text",
 					"objectClass": "TarjetaGráfica",
-					"sid": 658653292284799,
+					"sid": 468041462352012,
 					"parameters": {
 						"text": "\"Tarjeta Gráfica\"",
 						"case": "case-insensitive"
@@ -399,16 +575,71 @@
 			],
 			"actions": [
 				{
-					"id": "set-enabled",
-					"objectClass": "Grafica",
-					"sid": 275691311744277,
-					"behaviorType": "ArrastrarYSoltar",
+					"id": "set-visible",
+					"objectClass": "circulotg",
+					"sid": 318100918946433,
 					"parameters": {
-						"state": "enabled"
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechatg",
+					"sid": 224096189006027,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caratg",
+					"sid": 960196938604161,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 824992795957061,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulotg",
+					"sid": 577632310145695,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechatg",
+					"sid": 988737555570532,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caratg",
+					"sid": 996550431019967,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 203764930610250,
+					"parameters": {
+						"seconds": "0.5"
 					}
 				}
 			],
-			"sid": 411308284523472
+			"sid": 232086307625078
 		},
 		{
 			"eventType": "block",
@@ -471,6 +702,87 @@
 			"conditions": [
 				{
 					"id": "compare-text",
+					"objectClass": "FDA",
+					"sid": 123791195287657,
+					"parameters": {
+						"text": "\"Fuente de Alimentación\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "circulofe",
+					"sid": 637349944413333,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechafe",
+					"sid": 791038085172547,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "carafa",
+					"sid": 573789508185717,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 953355779023762,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulofe",
+					"sid": 450315309513703,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechafe",
+					"sid": 245871934799301,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "carafa",
+					"sid": 332547379317520,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 177956311601585,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				}
+			],
+			"sid": 247769801977159
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
 					"objectClass": "RAM1",
 					"sid": 583618835647636,
 					"parameters": {
@@ -527,6 +839,87 @@
 			"conditions": [
 				{
 					"id": "compare-text",
+					"objectClass": "RAM1",
+					"sid": 587925760874499,
+					"parameters": {
+						"text": "\"RAM\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "circuloram",
+					"sid": 734253629137929,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flecharam",
+					"sid": 464978863412764,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cararam",
+					"sid": 821525013989826,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 205136258089145,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circuloram",
+					"sid": 167645652875516,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flecharam",
+					"sid": 103509241234967,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cararam",
+					"sid": 651987825109560,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 932374713039044,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				}
+			],
+			"sid": 594879137699669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
 					"objectClass": "CPU1",
 					"sid": 497284296477430,
 					"parameters": {
@@ -577,6 +970,87 @@
 				}
 			],
 			"sid": 448022886671426
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "CPU1",
+					"sid": 637227105667957,
+					"parameters": {
+						"text": "\"CPU\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "circulocpu",
+					"sid": 143593544398178,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechacpu",
+					"sid": 780228293458944,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caracpu",
+					"sid": 986919411478743,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 343848736757672,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "circulocpu",
+					"sid": 258308345330168,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "flechacpu",
+					"sid": 191450960705740,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caracpu",
+					"sid": 354630336961191,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 305061003837038,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				}
+			],
+			"sid": 620707221612778
 		},
 		{
 			"eventType": "block",

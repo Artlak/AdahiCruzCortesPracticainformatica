@@ -119,7 +119,16 @@
 			"flechafe",
 			"circulofe",
 			"flechacpu",
-			"circulocpu"
+			"circulocpu",
+			"caravent",
+			"caratg",
+			"carapb",
+			"cararam",
+			"fondogrispintadotexturametal_",
+			"carafa",
+			"caracpu",
+			"circulotg",
+			"flechatg"
 		],
 		"subfolders": []
 	},
@@ -164,6 +173,38 @@
 					"name": "tomp3.cc - 1 hour of 3D Saul Goodman to slowly lose your sanity over 3D_64kbps.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 263287946708616,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tomp3.cc - memeOH MY GOD_64kbps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 480373162079752,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tomp3.cc - AMONG USmp3_64kbps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 731938223430852,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "NEFFEX - Careless 💔 [Copyright Free].webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 802757972137935,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "tomp3.cc - AMOGUS Sound effect_64kbps.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 506226036436059,
 					"file-info": {
 						"purpose": "none"
 					}
