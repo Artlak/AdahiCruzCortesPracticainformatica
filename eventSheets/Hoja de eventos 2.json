@@ -44,9 +44,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 818994304877627,
+					"sid": 698149918618580,
 					"parameters": {
-						"layout": "Escena 1"
+						"layout": "Escena 2"
 					}
 				},
 				{
