@@ -47,6 +47,30 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Control táctil",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -147,7 +171,10 @@
 			"thanosthanostwerk",
 			"texto0",
 			"Botón",
-			"chrek"
+			"chrek",
+			"Teclado",
+			"Mouse",
+			"ControlTáctil"
 		],
 		"subfolders": []
 	},

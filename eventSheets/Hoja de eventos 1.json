@@ -275,230 +275,355 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "Ventilador",
-					"sid": 898482605047199,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 751892044163211,
 					"parameters": {
-						"text": "\"Ventilador\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
 				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 155142526494003
-				}
-			],
-			"actions": [
-				{
-					"id": "set-enabled",
-					"objectClass": "cpu_cooler",
-					"sid": 844785804901703,
-					"behaviorType": "ArrastrarYSoltar",
-					"parameters": {
-						"state": "enabled"
-					}
+					"sid": 623218593944303
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 330083176567955,
-					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
+					"id": "is-enabled",
 					"objectClass": "Ventilador",
-					"sid": 783192993440092,
-					"parameters": {
-						"mode": "disabled"
-					}
+					"sid": 439327760615685
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 162602834943108,
-					"parameters": {
-						"text": "Aciertos"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "sx",
-					"sid": 298061926512094,
-					"parameters": {
-						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
+					"id": "is-focused",
+					"objectClass": "Ventilador",
+					"sid": 949133138334706
 				}
 			],
-			"sid": 154538744452146
+			"actions": [],
+			"sid": 154538744452146,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "Ventilador",
+							"sid": 845393832246703,
+							"parameters": {
+								"text": "\"Ventilador\"",
+								"case": "case-insensitive"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "cpu_cooler",
+							"sid": 960452782695928,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 794862442354397,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Ventilador",
+							"sid": 952219757060951,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 885366954310534,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 166832449810880,
+							"parameters": {
+								"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+								"loop": "not-looping",
+								"volume": "-15",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 880375597562149
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 581285767951535
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 137821161953815,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 515282292122308
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
+					"id": "is-enabled",
 					"objectClass": "Ventilador",
-					"sid": 690732902094914,
-					"parameters": {
-						"text": "\"Ventilador\"",
-						"case": "case-insensitive"
-					}
+					"sid": 291352192286833
 				}
 			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "circulovent",
-					"sid": 866272678302025,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "flechavent",
-					"sid": 279887954358603,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "caravent",
-					"sid": 506342389735353,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 112705107497036,
-					"parameters": {
-						"seconds": "0.5"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "circulovent",
-					"sid": 541129040641567,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "flechavent",
-					"sid": 774116098985696,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "caravent",
-					"sid": 167167370716675,
-					"parameters": {
-						"visibility": "toggle"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 278379817196384,
-					"parameters": {
-						"seconds": "0.5"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 916660390311714
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "PlacaBase",
-					"sid": 227362258840314,
-					"parameters": {
-						"text": "\"Placa base\"",
-						"case": "case-insensitive"
-					}
-				},
-				{
-					"id": "trigger-once-while-true",
+					"id": "else",
 					"objectClass": "System",
-					"sid": 169139571818323
+					"sid": 501870305735837
 				}
 			],
 			"actions": [
 				{
-					"id": "set-enabled",
-					"objectClass": "Placa_base",
-					"sid": 444927232853428,
-					"behaviorType": "ArrastrarYSoltar",
+					"id": "set-visible",
+					"objectClass": "circulovent",
+					"sid": 609179442597354,
 					"parameters": {
-						"state": "enabled"
+						"visibility": "toggle"
 					}
 				},
 				{
-					"id": "add-to-eventvar",
+					"id": "set-visible",
+					"objectClass": "flechavent",
+					"sid": 960563096035493,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "caravent",
+					"sid": 462859437417051,
+					"parameters": {
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "wait",
 					"objectClass": "System",
-					"sid": 356351440084993,
+					"sid": 147917365694403,
 					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
+						"seconds": "0.5"
 					}
 				},
 				{
-					"id": "set-enabled",
-					"objectClass": "PlacaBase",
-					"sid": 908686563583665,
+					"id": "set-visible",
+					"objectClass": "circulovent",
+					"sid": 990332735351713,
 					"parameters": {
-						"mode": "disabled"
+						"visibility": "toggle"
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 119012082580317,
+					"id": "set-visible",
+					"objectClass": "flechavent",
+					"sid": 656139038606054,
 					"parameters": {
-						"text": "Aciertos"
+						"visibility": "toggle"
 					}
 				},
 				{
-					"id": "play",
-					"objectClass": "sx",
-					"sid": 966099737262345,
+					"id": "set-visible",
+					"objectClass": "caravent",
+					"sid": 317278047272238,
 					"parameters": {
-						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 364548874785831,
+					"parameters": {
+						"seconds": "0.5"
 					}
 				}
 			],
-			"sid": 321606314429463
+			"sid": 226500526965486
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "PlacaBase",
-					"sid": 165823677692114,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 866506081370792,
 					"parameters": {
-						"text": "\"Placa base\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 881784438750582
+				},
+				{
+					"id": "is-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 312007286674848
+				},
+				{
+					"id": "is-focused",
+					"objectClass": "PlacaBase",
+					"sid": 259766354167342
+				}
+			],
+			"actions": [],
+			"sid": 998715277036351,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "PlacaBase",
+							"sid": 756664483537601,
+							"parameters": {
+								"text": "\"Placa base\"",
+								"case": "case-insensitive"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 190504752927628
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Placa_base",
+							"sid": 328117314279194,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 564998635898839,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "PlacaBase",
+							"sid": 126790157091569,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 781576120492842,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 402698773696859,
+							"parameters": {
+								"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+								"loop": "not-looping",
+								"volume": "-15",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 794990207846862
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 939569929901685
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 838857862004744,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 865653309038843
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 746097813609228
+				}
+			],
+			"actions": [],
+			"sid": 510133163699749
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 473049453327342
 				}
 			],
 			"actions": [
@@ -573,81 +698,146 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "TarjetaGráfica",
-					"sid": 757409336459966,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 799445593958001,
 					"parameters": {
-						"text": "\"Tarjeta Gráfica\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
 				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 208733538631698
-				}
-			],
-			"actions": [
-				{
-					"id": "set-enabled",
-					"objectClass": "Grafica",
-					"sid": 977967593716175,
-					"behaviorType": "ArrastrarYSoltar",
-					"parameters": {
-						"state": "enabled"
-					}
+					"sid": 868833350895246
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 433656372041272,
-					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
+					"id": "is-enabled",
 					"objectClass": "TarjetaGráfica",
-					"sid": 576424539477270,
-					"parameters": {
-						"mode": "disabled"
-					}
+					"sid": 819618127768088
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 901984728281564,
-					"parameters": {
-						"text": "Aciertos"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "sx",
-					"sid": 881571993075791,
-					"parameters": {
-						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
+					"id": "is-focused",
+					"objectClass": "TarjetaGráfica",
+					"sid": 342950720650438
 				}
 			],
-			"sid": 175315214648943
+			"actions": [],
+			"sid": 422629967328640,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "TarjetaGráfica",
+							"sid": 281206038585635,
+							"parameters": {
+								"text": "\"Tarjeta Gráfica\"",
+								"case": "case-insensitive"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 214650268902959
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Grafica",
+							"sid": 940854769872582,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 945240509797843,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "TarjetaGráfica",
+							"sid": 924122868979975,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 134478914961369,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 330472192274062,
+							"parameters": {
+								"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+								"loop": "not-looping",
+								"volume": "-15",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 805236504026180
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 612505248688004
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 182237489700985,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 848428989459637
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
+					"id": "is-enabled",
 					"objectClass": "TarjetaGráfica",
-					"sid": 468041462352012,
-					"parameters": {
-						"text": "\"Tarjeta Gráfica\"",
-						"case": "case-insensitive"
-					}
+					"sid": 845193153411794
+				}
+			],
+			"actions": [],
+			"sid": 701356546897648
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 676830975602127
 				}
 			],
 			"actions": [
@@ -722,69 +912,138 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "FDA",
-					"sid": 311154112781636,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 878908209990359,
 					"parameters": {
-						"text": "\"Fuente de Alimentación\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
 				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 456067195519819
-				}
-			],
-			"actions": [
-				{
-					"id": "set-enabled",
-					"objectClass": "psu",
-					"sid": 462746356115504,
-					"behaviorType": "ArrastrarYSoltar",
-					"parameters": {
-						"state": "enabled"
-					}
+					"sid": 437759717969902
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 810661258372568,
-					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
+					"id": "is-enabled",
 					"objectClass": "FDA",
-					"sid": 856357466073632,
-					"parameters": {
-						"mode": "disabled"
-					}
+					"sid": 414585281525543
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 700228906899874,
-					"parameters": {
-						"text": "Aciertos"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "sx",
-					"sid": 538144144438964,
-					"parameters": {
-						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
+					"id": "is-focused",
+					"objectClass": "FDA",
+					"sid": 347567100776692
 				}
 			],
-			"sid": 522629940463482
+			"actions": [],
+			"sid": 135900009301064,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "FDA",
+							"sid": 278987061516884,
+							"parameters": {
+								"text": "\"Fuente de Alimentación\"",
+								"case": "case-insensitive"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 339510588725649
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "psu",
+							"sid": 357000467390582,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 732452400609347,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "FDA",
+							"sid": 634707643058097,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 674580716038939,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 702767247183018,
+							"parameters": {
+								"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+								"loop": "not-looping",
+								"volume": "-15",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 431263547169158
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 993437378672153
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 944377779774100,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 170765341755441
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-enabled",
+					"objectClass": "FDA",
+					"sid": 444030090789123
+				}
+			],
+			"actions": [],
+			"sid": 120892008713453
 		},
 		{
 			"eventType": "block",
@@ -871,81 +1130,146 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "RAM1",
-					"sid": 583618835647636,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 994643712773868,
 					"parameters": {
-						"text": "\"RAM\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
 				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 557284261598758
-				}
-			],
-			"actions": [
-				{
-					"id": "set-enabled",
-					"objectClass": "ram",
-					"sid": 209397854914082,
-					"behaviorType": "ArrastrarYSoltar",
-					"parameters": {
-						"state": "enabled"
-					}
+					"sid": 391786275818749
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 803989645022113,
-					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
+					"id": "is-enabled",
 					"objectClass": "RAM1",
-					"sid": 205479071372759,
-					"parameters": {
-						"mode": "disabled"
-					}
+					"sid": 687162137237280
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 729555517936016,
-					"parameters": {
-						"text": "Aciertos"
-					}
-				},
-				{
-					"id": "play",
-					"objectClass": "sx",
-					"sid": 490742397191157,
-					"parameters": {
-						"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
-						"loop": "not-looping",
-						"volume": "-15",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
+					"id": "is-focused",
+					"objectClass": "RAM1",
+					"sid": 752459545299456
 				}
 			],
-			"sid": 496333342959229
+			"actions": [],
+			"sid": 437776092723187,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "RAM1",
+							"sid": 448014795931400,
+							"parameters": {
+								"text": "\"RAM\"",
+								"case": "case-insensitive"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 935971849327742
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "ram",
+							"sid": 726735683573373,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 738027037843776,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "RAM1",
+							"sid": 958203302306106,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 822220236043485,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 473438013599407,
+							"parameters": {
+								"audio-file": "tomp3.cc - memeOH MY GOD_64kbps",
+								"loop": "not-looping",
+								"volume": "-15",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 598646007113021
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 998550473504933
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 134613619356865,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 161080155597022
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
+					"id": "is-enabled",
 					"objectClass": "RAM1",
-					"sid": 587925760874499,
-					"parameters": {
-						"text": "\"RAM\"",
-						"case": "case-insensitive"
-					}
+					"sid": 307808346776820
+				}
+			],
+			"actions": [],
+			"sid": 915559306418307
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 474216413264185
 				}
 			],
 			"actions": [
@@ -1020,69 +1344,134 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "CPU1",
-					"sid": 497284296477430,
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 951463937882392,
 					"parameters": {
-						"text": "\"CPU\"",
-						"case": "case-insensitive"
+						"key": 13
 					}
 				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
-					"sid": 410017212500343
-				}
-			],
-			"actions": [
-				{
-					"id": "set-enabled",
-					"objectClass": "cpu",
-					"sid": 710630744139095,
-					"behaviorType": "ArrastrarYSoltar",
-					"parameters": {
-						"state": "enabled"
-					}
+					"sid": 507146843215373
 				},
 				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 620409686963255,
-					"parameters": {
-						"variable": "Aciertos",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
+					"id": "is-enabled",
 					"objectClass": "CPU1",
-					"sid": 782166643670103,
-					"parameters": {
-						"mode": "disabled"
-					}
+					"sid": 470821387073351
 				},
 				{
-					"id": "set-text",
-					"objectClass": "TextoVariable",
-					"sid": 960429892577659,
-					"parameters": {
-						"text": "Aciertos"
-					}
+					"id": "is-focused",
+					"objectClass": "CPU1",
+					"sid": 836639973825111
 				}
 			],
-			"sid": 448022886671426
+			"actions": [],
+			"sid": 547344355833014,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "CPU1",
+							"sid": 839541438789979,
+							"parameters": {
+								"text": "\"CPU\"",
+								"case": "case-insensitive"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 754747956183069
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "cpu",
+							"sid": 201562084053984,
+							"behaviorType": "ArrastrarYSoltar",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 809006727249605,
+							"parameters": {
+								"variable": "Aciertos",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "CPU1",
+							"sid": 470708755393896,
+							"parameters": {
+								"mode": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TextoVariable",
+							"sid": 381832473475854,
+							"parameters": {
+								"text": "Aciertos"
+							}
+						}
+					],
+					"sid": 966187370594856
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 157463126736985
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "sx",
+							"sid": 783603595829116,
+							"parameters": {
+								"audio-file": "omagadbra",
+								"loop": "not-looping",
+								"volume": "-10",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 306946415618219
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
+					"id": "is-enabled",
 					"objectClass": "CPU1",
-					"sid": 637227105667957,
-					"parameters": {
-						"text": "\"CPU\"",
-						"case": "case-insensitive"
-					}
+					"sid": 306592230777271
+				}
+			],
+			"actions": [],
+			"sid": 279243994296670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 995345385204735
 				},
 				{
 					"id": "is-enabled",
@@ -1201,9 +1590,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "Texto",
-					"sid": 835610978217559,
+					"sid": 149979681558077,
 					"parameters": {
-						"text": "\"Coloca el hardware donde corresponda\""
+						"text": "\"Arrastra el hardware donde corresponda\""
 					}
 				}
 			],
