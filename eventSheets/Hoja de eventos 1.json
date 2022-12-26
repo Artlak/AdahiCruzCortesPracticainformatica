@@ -1049,13 +1049,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-text",
-					"objectClass": "FDA",
-					"sid": 123791195287657,
-					"parameters": {
-						"text": "\"Fuente de Alimentación\"",
-						"case": "case-insensitive"
-					}
+					"id": "else",
+					"objectClass": "System",
+					"sid": 706233197213712
 				}
 			],
 			"actions": [
