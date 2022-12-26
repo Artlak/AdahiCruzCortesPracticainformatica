@@ -173,7 +173,15 @@
 			"chrek",
 			"Teclado",
 			"Mouse",
-			"ControlTáctil"
+			"ControlTáctil",
+			"manvent",
+			"menpb",
+			"mentg",
+			"menfda",
+			"menram",
+			"mencpu",
+			"Textodeerrores",
+			"nºerrores"
 		],
 		"subfolders": []
 	},

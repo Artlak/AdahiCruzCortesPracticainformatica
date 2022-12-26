@@ -12,6 +12,16 @@
 			"sid": 321735361666130
 		},
 		{
+			"eventType": "variable",
+			"name": "Errores",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "Número de errores",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 468233777322294
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -81,6 +91,14 @@
 					"sid": 966329524371243,
 					"parameters": {
 						"text": "Aciertos"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "nºerrores",
+					"sid": 290386447904569,
+					"parameters": {
+						"text": "Errores"
 					}
 				},
 				{
@@ -267,6 +285,54 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "manvent",
+					"sid": 490081649248547,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "menpb",
+					"sid": 655560895319398,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "menram",
+					"sid": 311256378302793,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "menfda",
+					"sid": 786787127498664,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "mencpu",
+					"sid": 270166563259138,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "mentg",
+					"sid": 901096058385577,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 512213158835165
@@ -377,13 +443,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 137821161953815,
+							"sid": 869683627838946,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 900142768527083,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 294968145334991,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "manvent",
+							"sid": 895625475594890,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "manvent",
+							"sid": 516315835529536,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 102606388587915,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "manvent",
+							"sid": 690316901282515,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -591,13 +706,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 838857862004744,
+							"sid": 109237641978418,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 399833954255797,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 172910059172265,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "menpb",
+							"sid": 701404975311537,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menpb",
+							"sid": 309669578140531,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 877304732855049,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menpb",
+							"sid": 172197173377395,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -805,13 +969,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 182237489700985,
+							"sid": 467616516848200,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 908431062664147,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 505590682921313,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "mentg",
+							"sid": 681808777927105,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "mentg",
+							"sid": 990595753164792,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 584727974487801,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "mentg",
+							"sid": 247943260642239,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -1019,13 +1232,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 944377779774100,
+							"sid": 906374495187160,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 179855949999207,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 988153497106533,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "menfda",
+							"sid": 931813327537474,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menfda",
+							"sid": 450990491133961,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 944149826502468,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menfda",
+							"sid": 602815570175122,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -1233,13 +1495,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 134613619356865,
+							"sid": 907061365159273,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 544625403078763,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 817638199616133,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "menram",
+							"sid": 773897503186519,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menram",
+							"sid": 191026871391286,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 800326941656713,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "menram",
+							"sid": 799572954069534,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -1435,13 +1746,62 @@
 						{
 							"id": "play",
 							"objectClass": "sx",
-							"sid": 783603595829116,
+							"sid": 924445741239407,
 							"parameters": {
 								"audio-file": "omagadbra",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-5",
 								"stereo-pan": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 505539991802313,
+							"parameters": {
+								"variable": "Errores",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "nºerrores",
+							"sid": 975678746907309,
+							"parameters": {
+								"text": "Errores"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "mencpu",
+							"sid": 350557426965519,
+							"parameters": {
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "mencpu",
+							"sid": 530558747428858,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 423403938838077,
+							"parameters": {
+								"seconds": "7"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "mencpu",
+							"sid": 923960500191274,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -2051,6 +2411,15 @@
 					}
 				},
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 435667448496844,
+					"parameters": {
+						"variable": "Errores",
+						"value": "0"
+					}
+				},
+				{
 					"id": "restart-layout",
 					"objectClass": "System",
 					"sid": 120632472808867
@@ -2149,6 +2518,15 @@
 					"sid": 208749347987709,
 					"parameters": {
 						"variable": "Aciertos",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 546297145660147,
+					"parameters": {
+						"variable": "Errores",
 						"value": "0"
 					}
 				},
